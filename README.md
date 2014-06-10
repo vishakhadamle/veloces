@@ -17,6 +17,6 @@ Selecting the scheduler :
 
 		If the patch has been applied and kernel has been compiled correctly, then this command would show 'veloces' in the scheduler list. 
 		*sdX - select the appropriate device for which scheduler is to be selected
-
+	To choose veloces as the scheduler, 
 	echo veloces > /sys/block/sdX/queue/scheduler
 
